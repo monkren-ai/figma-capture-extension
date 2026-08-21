@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "Web to Figma",
+    "description": "扩展名称"
+  },
+  "extensionDesc": {
+    "message": "Web to Figma 一键抓取网页并转换为可编辑设计稿，By 派大鑫（小红书：https://www.xiaohongshu.com/user/profile/5a2e96aab1da1465364b727b）。",
+    "description": "扩展描述"
+  },
+  "browserActionTitle": {
+    "message": "抓取页面到 Figma",
+    "description": "浏览器操作提示"
+  },
+  "popupTitle": {
+    "message": "Web to Figma",
+    "description": "弹窗标题"
+  },
+  "proxyModeLabel": {
+    "message": "跨域图片代理模式",
+    "description": "代理模式开关标签"
+  },
+  "concurrencyLabel": {
+    "message": "图片采集并发",
+    "description": "并发选择标签"
+  },
+  "concurrencyInfinite": {
+    "message": "无限",
+    "description": "无限并发选项"
+  },
+  "hintText": {
+    "message": "默认关闭代理。并发仅影响开启代理后的图片抓取速度与稳定性。",
+    "description": "提示文本"
+  },
+  "captureButton": {
+    "message": "开始采集",
+    "description": "采集按钮文本"
+  },
+  "captureButtonCapturing": {
+    "message": "采集中...",
+    "description": "采集中的按钮文本"
+  },
+  "statusReady": {
+    "message": "准备就绪",
+    "description": "就绪状态"
+  },
+  "statusCapturing": {
+    "message": "采集中...",
+    "description": "采集状态"
+  },
+  "statusSuccess": {
+    "message": "采集完成！",
+    "description": "成功状态"
+  },
+  "statusError": {
+    "message": "采集失败",
+    "description": "失败状态"
+  },
+  "proxyModeEnabled": {
+    "message": "已开启跨域图片代理模式",
+    "description": "开启代理模式的状态消息"
+  },
+  "proxyModeDisabled": {
+    "message": "已关闭跨域图片代理模式",
+    "description": "关闭代理模式的状态消息"
+  },
+  "concurrencySet": {
+    "message": "图片采集并发已设为：",
+    "description": "并发设置的状态消息前缀"
+  },
+  "captureTriggered": {
+    "message": "已触发采集，请查看下载文件。",
+    "description": "触发采集的状态消息"
+  },
+  "captureFailed": {
+    "message": "采集失败：",
+    "description": "错误消息前缀"
+  },
+  "unknownError": {
+    "message": "未知错误",
+    "description": "未知错误"
+  },
+  "cancel": {
+    "message": "取消",
+    "description": "取消按钮"
+  },
+  "toolbarTitle": {
+    "message": "Web to Figma",
+    "description": "工具栏标题"
+  }
+}

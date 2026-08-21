@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extensionName__",
+  "version": "1.0.0",
+  "description": "__MSG_extensionDesc__",
+  "default_locale": "zh_CN",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "icons": {
+    "16": "logo/icon16.png",
+    "48": "logo/icon48.png",
+    "128": "logo/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "__MSG_browserActionTitle__",
+    "default_icon": {
+      "16": "logo/icon16.png",
+      "48": "logo/icon48.png",
+      "128": "logo/icon128.png"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "capture.js",
+        "src/runner.js",
+        "logo/icon16.png"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "extensionName": {
+    "message": "Web to Figma",
+    "description": "Extension name displayed in browser"
+  },
+  "extensionDesc": {
+    "message": "Capture web pages and convert to editable Figma designs with one click. By Paidaxin (Xiaohongshu).",
+    "description": "Extension description"
+  },
+  "browserActionTitle": {
+    "message": "Capture page for Figma",
+    "description": "Browser action tooltip"
+  },
+  "popupTitle": {
+    "message": "Web to Figma",
+    "description": "Popup title"
+  },
+  "proxyModeLabel": {
+    "message": "Cross-origin image proxy mode",
+    "description": "Proxy mode toggle label"
+  },
+  "concurrencyLabel": {
+    "message": "Image capture concurrency",
+    "description": "Concurrency select label"
+  },
+  "concurrencyInfinite": {
+    "message": "Unlimited",
+    "description": "Infinite concurrency option"
+  },
+  "hintText": {
+    "message": "Proxy is off by default. Concurrency only affects image capture speed and stability when proxy is enabled.",
+    "description": "Hint text below options"
+  },
+  "captureButton": {
+    "message": "Start Capture",
+    "description": "Capture button text"
+  },
+  "captureButtonCapturing": {
+    "message": "Capturing...",
+    "description": "Capture button text when capturing"
+  },
+  "statusReady": {
+    "message": "Ready",
+    "description": "Ready status"
+  },
+  "statusCapturing": {
+    "message": "Capturing...",
+    "description": "Capturing status"
+  },
+  "statusSuccess": {
+    "message": "Capture complete!",
+    "description": "Success status"
+  },
+  "statusError": {
+    "message": "Capture failed",
+    "description": "Error status"
+  },
+  "proxyModeEnabled": {
+    "message": "Cross-origin image proxy mode enabled",
+    "description": "Status message when proxy mode is enabled"
+  },
+  "proxyModeDisabled": {
+    "message": "Cross-origin image proxy mode disabled",
+    "description": "Status message when proxy mode is disabled"
+  },
+  "concurrencySet": {
+    "message": "Image capture concurrency set to: ",
+    "description": "Status message prefix for concurrency change"
+  },
+  "captureTriggered": {
+    "message": "Capture triggered, please check the downloaded file.",
+    "description": "Status message when capture is triggered"
+  },
+  "captureFailed": {
+    "message": "Capture failed: ",
+    "description": "Error message prefix"
+  },
+  "unknownError": {
+    "message": "Unknown error",
+    "description": "Unknown error"
+  },
+  "cancel": {
+    "message": "Cancel",
+    "description": "Cancel button"
+  },
+  "toolbarTitle": {
+    "message": "Web to Figma",
+    "description": "Toolbar title"
+  }
+}

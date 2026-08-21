@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+.frame2117130913 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--nomode-Black-a100, #1f1f1f);
+  width: 1677px;
+  height: 960px;
+  row-gap: 20px;
+
+  .logo1 {
+    flex-shrink: 0;
+    border-radius: 125px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .frame2117130922 {
+    display: inline-flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    align-self: stretch;
+    margin-right: 619px;
+    margin-left: 619px;
+    row-gap: 20px;
+
+    .welcomeToPicPro {
+      flex-shrink: 0;
+      background: linear-gradient(94.16deg, #00ff907a 0%, #ffec7d99 100%);
+      background-clip: text;
+      line-height: 32px;
+      letter-spacing: 0;
+      color: transparent;
+      font-family: IntraNet, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+      font-size: 32px;
+      -webkit-background-clip: text;
+    }
+
+    .aPictureAiPromptLibr {
+      flex-shrink: 0;
+      line-height: 11px;
+      letter-spacing: 0;
+      color: var(--mode-White-a100, #ffffff);
+      font-family: "LINE Seed TW_TTF", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+  }
+}
